@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Movie",
+        "price": "15M$",
+        "description": "the art and technology of motion-picture photography. It involves such techniques as the general composition of a scene; the lighting of the set or location.",
+        "img": "./services/001.png"
+    },
+    {
+        "id": 2,
+        "name": "Modeling",
+        "price": "3.44M$",
+        "description": "Models promote, advertise, and showcase clothing, footwear, and other products. They participate in photoshoots, fashion shows, commercials",
+        "img": "./services/002.png"
+    },
+    {
+        "id": 3,
+        "name": "Drama",
+        "price": "6.7M$",
+        "description": "a composition in prose or verse presenting in dialogue or pantomime a story involving conflict or contrast of character, especially one intended to be acted on the stage; a play. the branch ",
+        "img": "./services/003.png"
+    },
+    {
+        "id": 4,
+        "name": "Tv Show",
+        "price": "4M$",
+        "description": "A television show – or simply TV show – is any content produced for viewing on a television set which can be broadcast via over-the-air, satellite, or cable, excluding breaking news, advertisements",
+        "img": "./services/004.png"
+    },
+    {
+        "id": 5,
+        "name": "Music Video",
+        "price": "4M$",
+        "description": "A music video is a video of variable length, that integrates a music song or music album with imagery that is produced for promotional or musical artistic music song or music album",
+        "img": "./services/005.png"
+    },
+    {
+        "id": 6,
+        "name": "Ramp Show",
+        "price": "2.6M$",
+        "description": "RAMP models maintainability using repair probability distributions for system elements, as well as preventive maintenance data and fixed logistic delays system",
+        "img": "./services/006.png"
+    }
+]

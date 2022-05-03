@@ -1,0 +1,21 @@
+.service-section {
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 1px rgb(27 27 27 / 10%);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.service-section img {
+    width: 50%;
+}
+
+.service-section:hover {
+    background-color: grey;
+    transform: scale(1.05);
+}
+
+.service-section button:hover {
+    background-color: brown;
+}
