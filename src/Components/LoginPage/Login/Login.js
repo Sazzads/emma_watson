@@ -80,11 +80,12 @@ const Login = () => {
                     Login
                 </Button>
             </Form>
-            <p className='mt-3'>Are you new useer ? please <span> <Link className='text-decoration-none' to='/register'>sign up</Link> </span></p>
+            <p className='mt-3'>Are You New User?<span> <Link className='text-decoration-none' to='/register'>Sign Up</Link> </span></p>
             <ToastContainer />
-            <p>Forget Your password? <span style={{ cursor: 'pointer' }} className='text-primary' onClick={resetPassword}>reset password</span></p>
+            <p>Forget Your Password? <span style={{ cursor: 'pointer' }} className='text-primary' onClick={resetPassword}>Reset Password</span></p>
 
             <SocialLogin></SocialLogin>
+            <br />
         </div >
     );
 };
