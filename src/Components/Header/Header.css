@@ -1,0 +1,15 @@
+.zoom:hover {
+    transform: scale(1.2);
+    color: grey;
+
+}
+
+.nav-class {
+    color: black;
+}
+
+.nav-class:hover {
+    transform: scale(1.1);
+    color: red;
+
+}
