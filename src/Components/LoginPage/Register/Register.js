@@ -35,7 +35,7 @@ const Register = () => {
     }
 
     return (
-        <div className='register-form container py-5'>
+        <div className='register-form container py-4'>
             <h2>Please Register</h2>
             <Row>
                 <Col lg='3'></Col>
