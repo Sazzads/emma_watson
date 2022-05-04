@@ -9,7 +9,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserAlt } from '@fortawesome/free-solid-svg-icons';
-
+import './Login.css';
 const Login = () => {
     const emailRef = useRef('');
     const passwordRef = useRef('');
@@ -74,7 +74,7 @@ const Login = () => {
                     <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                 </Form.Group>
                 <p className='text-danger'>{errorElement}</p>
-                <Button className='rounded-pill px-5 fw-bolder fs-6' variant="primary" type="submit">
+                <Button className='rounded-pill px-5 fw-bolder fs-6 hover-effect' variant="primary" type="submit">
                     <FontAwesomeIcon style={{ height: '16px' }} className='me-2 ' icon={faUserAlt} />
                     Login
                 </Button>
