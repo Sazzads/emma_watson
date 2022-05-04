@@ -24,7 +24,7 @@ const Loading = () => {
                             role="status"
                             aria-hidden="true"
                         />
-                        Loading...
+                        Please Wait...
                     </Button>
                 </>
             </div>
