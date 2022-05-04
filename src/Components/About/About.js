@@ -17,7 +17,7 @@ const About = () => {
                         <div className='text-start'>
                             <h1 className='text-info'>SAZZAD HOSSAIN</h1>
                             <h3 className='text-secondary'>junior web developer</h3>
-                            <p className='text-dark'>This is Sazzad Hossain from Dafodil international University. i am a student of computer science and engineering. my goal is want to be a full stack web developer .</p>
+                            <p className='text-dark'>This is Sazzad Hossain from Dafodil international University. i am a student of computer science and engineering. my goal is want to be a full stack web developer. so i need to be hard work next 3/4 month</p>
 
                         </div>
                     </Col>
