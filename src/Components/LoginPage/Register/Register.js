@@ -36,7 +36,7 @@ const Register = () => {
 
     return (
         <div className='register-form container py-4'>
-            <h2>Please Register</h2>
+            <h2 className='text-info'>Please Register</h2>
             <Row>
                 <Col lg='3'></Col>
                 <Col lg='6'>
@@ -62,11 +62,11 @@ const Register = () => {
                             </Form.Group>
                             <Button
                                 disabled={!agree}
-                                className='rounded-pill w-50 max-auto px-5 fw-bolder fs-6' variant="primary" type="submit">
+                                className='rounded-pill px-5 fw-bolder' variant="primary" type="submit">
                                 Register
                             </Button>
                         </Form>
-                        <p>Already have an account? <span className='text-primary' onClick={navigateLogin} style={{ cursor: 'pointer' }}>Login Now</span></p>
+                        <p>Already have an account? <span className='text-primary' onClick={navigateLogin} style={{ cursor: 'pointer' }}>Login</span></p>
                         <SocialLogin />
                     </div>
                 </Col>
