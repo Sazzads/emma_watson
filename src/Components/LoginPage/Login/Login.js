@@ -1,11 +1,10 @@
 import React, { useRef } from 'react';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
-import { Button, Col, Form, Row } from 'react-bootstrap';
+import { Button, Form } from 'react-bootstrap';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import SocialLogin from '../Authentication/SocialLogin';
 import Loading from '../../Loading/Loading';
-import { async } from '@firebase/util';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
